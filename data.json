@@ -1,229 +1,213 @@
 {
   "profile": {
-    "name": "张三",
-    "name_en": "San Zhang",
-    "title": "软件工程师",
-    "title_en": "Software Engineer",
+    "name": "张北辰",
+    "name_en": "Beichen Zhang",
+    "title": "金融学 & 数学与应用数学 双学位在读",
+    "title_en": "Dual Degree Student in Finance & Mathematics and Applied Mathematics",
     "avatar": "photo.jpg",
-    "email": "zhangsan@example.com",
-    "phone": "+86 138-0000-0000",
-    "bio": "热爱技术的全栈工程师，5年Web开发经验，专注于构建优雅、高性能的应用。",
-    "bio_en": "A passionate full-stack engineer with 5 years of web development experience, focused on building elegant and performant applications."
+    "email": "zhangbc05@outlook.com",
+    "phone": "+86 18702137669",
+    "bio": "同济大学金融学与数学双学位在读生，具备扎实的数理基础与金融专业知识。擅长数据分析、数学建模与量化研究，拥有基金机构销售与数据分析实习经历，多次在数学建模与计算机应用竞赛中获奖。",
+    "bio_en": "A dual-degree student at Tongji University in Finance and Mathematics, with solid quantitative skills and financial expertise. Experienced in data analysis, mathematical modeling, and quantitative research. Multiple awards in mathematical modeling and computer application competitions."
   },
   "education": [
     {
       "id": "edu-1",
-      "school": "清华大学",
-      "school_en": "Tsinghua University",
-      "degree": "计算机科学与技术 硕士",
-      "degree_en": "M.S. in Computer Science",
-      "start": "2018-09",
-      "end": "2021-06",
-      "gpa": "3.8/4.0",
-      "summary": "研究方向为分布式系统与云计算，参与国家级科研项目2项。",
-      "summary_en": "Research focused on distributed systems and cloud computing. Participated in 2 national research projects.",
+      "school": "同济大学",
+      "school_en": "Tongji University",
+      "degree": "金融学 & 数学与应用数学 双学位",
+      "degree_en": "Dual B.S. in Finance & Mathematics and Applied Mathematics",
+      "start": "2023-09",
+      "end": "至今",
+      "end_en": "Present",
+      "gpa": "85.2/100",
+      "summary": "同时攻读金融学与数学两个学位，GPA 85.2/100，具备扎实的量化分析与金融理论功底。",
+      "summary_en": "Pursuing dual degrees in Finance and Mathematics with a GPA of 85.2/100, building strong foundations in quantitative analysis and financial theory.",
       "details": [
-        "研究方向为分布式系统与云计算",
-        "参与国家级科研项目2项",
-        "发表CCF-A类论文1篇",
-        "获得国家奖学金"
+        "数学类：数学分析、高等代数、概率论与数理统计、应用随机过程、数学建模",
+        "金融经济类：宏微观经济学、货币金融学、国际金融、计量经济学、公司金融、投资学、会计学",
+        "计算机类：Python程序设计、数据库技术、数据结构、大数据技术与应用"
       ],
       "details_en": [
-        "Research focused on distributed systems and cloud computing",
-        "Participated in 2 national-level research projects",
-        "Published 1 CCF-A paper",
-        "Awarded National Scholarship"
-      ]
-    },
-    {
-      "id": "edu-2",
-      "school": "浙江大学",
-      "school_en": "Zhejiang University",
-      "degree": "软件工程 学士",
-      "degree_en": "B.E. in Software Engineering",
-      "start": "2014-09",
-      "end": "2018-06",
-      "gpa": "3.6/4.0",
-      "summary": "系统学习软件工程理论与实践，多次获得校级奖学金。",
-      "summary_en": "Systematic study of software engineering theory and practice. Received multiple university-level scholarships.",
-      "details": [
-        "主修课程：数据结构、算法、操作系统、计算机网络、数据库",
-        "毕业设计：基于微服务的在线教育平台",
-        "多次获得校级奖学金"
-      ],
-      "details_en": [
-        "Core courses: Data Structures, Algorithms, OS, Computer Networks, Databases",
-        "Thesis: Microservice-based Online Education Platform",
-        "Received multiple university-level scholarships"
+        "Mathematics: Mathematical Analysis, Advanced Algebra, Probability & Statistics, Applied Stochastic Processes, Mathematical Modeling",
+        "Finance & Economics: Macro/Micro Economics, Monetary Finance, International Finance, Econometrics, Corporate Finance, Investments, Accounting",
+        "Computer Science: Python Programming, Database Technology, Data Structures, Big Data Technology & Applications"
       ]
     }
   ],
   "experience": [
     {
       "id": "exp-1",
-      "company": "字节跳动",
-      "company_en": "ByteDance",
-      "position": "高级前端工程师",
-      "position_en": "Senior Frontend Engineer",
-      "start": "2023-03",
-      "end": "至今",
-      "end_en": "Present",
-      "summary": "负责抖音电商平台前端架构设计与核心功能开发。",
-      "summary_en": "Responsible for frontend architecture design and core feature development of Douyin E-commerce platform.",
+      "company": "兴业基金管理有限公司",
+      "company_en": "Xingye Fund Management Co., Ltd.",
+      "position": "机构销售实习生",
+      "position_en": "Institutional Sales Intern",
+      "start": "2025-12",
+      "end": "2026-03",
+      "summary": "负责市场分析、产品数据研究与机构准入尽调报告撰写，深入参与基金产品销售与客户维护全流程。",
+      "summary_en": "Responsible for market analysis, product data research, and institutional due diligence reports, deeply involved in fund product sales and client maintenance.",
       "details": [
-        "主导前端微服务架构升级，将单体应用拆分为15个独立子应用，构建时间缩短60%",
-        "设计并实现组件库，包含50+业务组件，覆盖团队80%的日常开发需求",
-        "推动TypeScript全面迁移，代码质量和可维护性显著提升",
-        "指导3名初级工程师，制定团队代码规范和技术分享机制"
+        "市场分析与研报撰写：紧密跟踪转债、股票市场趋势，总结分析不同基金经理的市场观点与近期操作，定期输出不同产品的分析研报，为部门策略调整提供参考",
+        "产品数据分析与准入尽调报告：分析部门覆盖的40余只公募基金产品的底仓数据及机构客户数据，深入挖掘公司产品线优势，结合银行、券商等机构客户需求，撰写三十份以上机构准入尽调报告",
+        "营销材料与一页通制作：负责部分路演PPT、公司宣讲PPT以及产品一页通的制作，同时根据Wind及公司内部数据每周制作营销材料"
       ],
       "details_en": [
-        "Led frontend microservice architecture upgrade, splitting monolithic app into 15 independent sub-apps, reducing build time by 60%",
-        "Designed and implemented a component library with 50+ business components, covering 80% of the team's daily development needs",
-        "Drove full TypeScript migration, significantly improving code quality and maintainability",
-        "Mentored 3 junior engineers, established team code standards and knowledge sharing practices"
+        "Market Analysis & Research Reports: Closely tracked convertible bond and stock market trends, summarized market views and recent operations of different fund managers, regularly produced analysis reports on various products to support strategy adjustments",
+        "Product Data Analysis & Due Diligence Reports: Analyzed underlying holdings data of 40+ public fund products and institutional client data, deeply explored company product line advantages, authored 30+ institutional due diligence reports tailored to banks and securities firms",
+        "Marketing Materials: Produced roadshow PPTs, company presentation PPTs, and product one-pagers, created weekly marketing materials using Wind and internal company data"
       ]
     },
     {
       "id": "exp-2",
-      "company": "阿里巴巴",
-      "company_en": "Alibaba",
-      "position": "前端工程师",
-      "position_en": "Frontend Engineer",
-      "start": "2021-07",
-      "end": "2023-02",
-      "summary": "参与淘宝商家端后台管理系统开发，服务百万级商家用户。",
-      "summary_en": "Participated in the development of Taobao merchant backend system, serving millions of merchants.",
+      "company": "山西证道私募证券投资基金有限公司",
+      "company_en": "Shanxi Zhengdao Private Securities Investment Fund Co., Ltd.",
+      "position": "数据分析实习生",
+      "position_en": "Data Analysis Intern",
+      "start": "2025-09",
+      "end": "2025-12",
+      "summary": "运用Python进行金融数据清洗与分析，参与量化模型开发与基金研究数据库维护。",
+      "summary_en": "Applied Python for financial data cleaning and analysis, participated in quantitative model development and fund research database maintenance.",
       "details": [
-        "开发商家数据分析看板，支持实时数据可视化与自定义报表导出",
-        "优化首屏加载性能，LCP从3.2s降至1.1s",
-        "设计并落地前端监控体系，覆盖错误监控、性能监控与用户行为分析",
-        "参与双11大促技术保障，系统平稳支撑10倍日常流量"
+        "数据清洗：使用Python（Pandas，Numpy）收集、整理和清洗五十余家上市公司财务指标数据",
+        "参与模型开发：协助内部同事开发、测试、优化量化定价模型和风险模型，以及策略文档撰写工作",
+        "数据库维护：收集、整理、完善基金研究数据库，并进行每周跟踪及维护，丰富完善基金研究体系"
       ],
       "details_en": [
-        "Developed merchant data analytics dashboard with real-time visualization and custom report export",
-        "Optimized first-screen loading performance, reducing LCP from 3.2s to 1.1s",
-        "Designed and implemented frontend monitoring system covering error tracking, performance monitoring, and user behavior analysis",
-        "Participated in Double 11 technical support, system stably handled 10x daily traffic"
+        "Data Cleaning: Used Python (Pandas, NumPy) to collect, organize, and clean financial indicator data for 50+ listed companies",
+        "Model Development: Assisted colleagues in developing, testing, and optimizing quantitative pricing models and risk models, as well as strategy documentation",
+        "Database Maintenance: Collected, organized, and improved the fund research database with weekly tracking and maintenance, enriching the fund research system"
       ]
     }
   ],
   "projects": [
     {
       "id": "proj-1",
-      "name": "开源组件库 Starlight UI",
-      "name_en": "Starlight UI - Open Source Component Library",
-      "summary": "一套轻量级的Vue 3组件库，GitHub 2k+ Stars。",
-      "summary_en": "A lightweight Vue 3 component library with 2k+ GitHub Stars.",
-      "tech": ["Vue 3", "TypeScript", "Vite", "Vitest"],
-      "link": "https://github.com/example/starlight-ui",
+      "name": "上海市大学生计算机应用能力大赛 — 一等奖",
+      "name_en": "Shanghai College Student Computer Application Competition — First Prize",
+      "summary": "作为项目负责人，开发基于对话驱动的人工智能工作台，可将用户主题自动转化为研究报告。",
+      "summary_en": "As project lead, developed a dialogue-driven AI workstation that automatically converts user topics into research reports.",
+      "tech": ["Python", "AI", "NLP", "Backend Development"],
+      "link": "",
       "image": "",
       "details": [
-        "从零设计并实现了30+常用UI组件",
-        "完善的文档站点与交互式Playground",
-        "单元测试覆盖率95%+",
-        "被50+个项目采用"
+        "参与开发基于对话驱动的人工智能工作台，该系统可将用户主题自动转化为研究报告",
+        "承担算法设计与优化、后端核心逻辑实现，把控技术路线与关键难题攻关",
+        "最终获得大赛一等奖"
       ],
       "details_en": [
-        "Designed and implemented 30+ common UI components from scratch",
-        "Comprehensive documentation site with interactive Playground",
-        "95%+ unit test coverage",
-        "Adopted by 50+ projects"
+        "Developed a dialogue-driven AI workstation that automatically converts user topics into research reports",
+        "Responsible for algorithm design & optimization, backend core logic implementation, and tackling key technical challenges",
+        "Won First Prize in the competition"
       ]
     },
     {
       "id": "proj-2",
-      "name": "跨平台笔记应用 NoteFlow",
-      "name_en": "NoteFlow - Cross-platform Note App",
-      "summary": "支持Markdown的跨平台笔记应用，支持Web/桌面端/移动端。",
-      "summary_en": "A cross-platform note-taking app with Markdown support for Web, Desktop, and Mobile.",
-      "tech": ["Electron", "React", "Node.js", "SQLite"],
-      "link": "https://github.com/example/noteflow",
+      "name": "2026 美国大学生数学建模竞赛 — M奖（一等奖）",
+      "name_en": "2026 MCM/ICM — Meritorious Winner (First Prize)",
+      "summary": "作为核心成员参加美国大学生数学建模竞赛，负责模型代码编写与优化，获得M奖（Meritorious Winner）。",
+      "summary_en": "Participated as a core member in MCM/ICM, responsible for model coding and optimization, awarded Meritorious Winner.",
+      "tech": ["Mathematical Modeling", "Python", "Data Analysis", "LaTeX"],
+      "link": "",
       "image": "",
       "details": [
-        "实现Markdown实时预览编辑，支持数学公式与代码高亮",
-        "基于CRDT算法实现多设备实时同步",
-        "支持插件系统，社区贡献20+插件"
+        "负责模型代码的编写与优化，以及部分论文的撰写与流程图等内容的制作",
+        "根据选题搜集相关数据与文献，运用数学建模知识参与模型推导与验证",
+        "获得M奖（Meritorious Winner，全球前8%）"
       ],
       "details_en": [
-        "Implemented real-time Markdown preview editing with math formula and code highlighting support",
-        "Multi-device real-time sync based on CRDT algorithm",
-        "Plugin system with 20+ community-contributed plugins"
+        "Responsible for model code development and optimization, as well as partial paper writing and diagram creation",
+        "Collected relevant data and literature based on the selected topic, applied mathematical modeling knowledge for model derivation and validation",
+        "Awarded Meritorious Winner (Top 8% globally)"
+      ]
+    },
+    {
+      "id": "proj-3",
+      "name": "租车管理小程序",
+      "name_en": "Car Rental Management System",
+      "summary": "参与开发租车管理系统，负责数据库结构搭建与核心功能开发。",
+      "summary_en": "Participated in developing a car rental management system, responsible for database design and core feature development.",
+      "tech": ["SQL", "SSMS", "Database Design"],
+      "link": "",
+      "image": "",
+      "details": [
+        "负责数据库表结构搭建（用户、车辆、订单等模块），使用SSMS完成数据建模与关系约束",
+        "开发实现车辆查询、在线下单、订单状态跟踪等核心功能",
+        "使用窗口函数、触发器等拓展功能"
+      ],
+      "details_en": [
+        "Designed database table structures (users, vehicles, orders modules) using SSMS for data modeling and relational constraints",
+        "Developed core features including vehicle search, online ordering, and order status tracking",
+        "Extended functionality using window functions and triggers"
+      ]
+    }
+  ],
+  "research": [
+    {
+      "id": "res-1",
+      "name": "科学数据收益分配模型",
+      "name_en": "Scientific Data Revenue Distribution Model",
+      "institution": "上海市科学技术委员会",
+      "institution_en": "Shanghai Science and Technology Commission",
+      "start": "2025-09",
+      "end": "至今",
+      "end_en": "Present",
+      "summary": "研究政府支持的高校或机构产出的科学数据的收益分配问题，参与构建基于贡献度与时间的分配模型。",
+      "summary_en": "Research on revenue distribution of scientific data produced by government-supported universities and institutions, contributing to a contribution-and-time-based allocation model.",
+      "details": [
+        "针对科学数据共享动力不足问题，参与构建基于贡献度与时间的从后往前的收益分配模型",
+        "运用数学建模知识参与模型推导与验证，并负责模型部分的论文撰写工作",
+        "运用Shapley值法对收益来源从投入量、价值增值、数据稀缺性三个方面进行建模"
+      ],
+      "details_en": [
+        "Addressed the lack of incentives for scientific data sharing by constructing a backward-looking revenue distribution model based on contribution and time",
+        "Applied mathematical modeling knowledge for model derivation and validation, responsible for writing the model section of the paper",
+        "Used Shapley value method to model revenue sources from three dimensions: input quantity, value appreciation, and data scarcity"
       ]
     }
   ],
   "skills": [
     {
-      "category": "编程语言",
-      "category_en": "Programming Languages",
-      "items": ["JavaScript", "TypeScript", "Python", "Go", "Java"]
+      "category": "编程与数据分析",
+      "category_en": "Programming & Data Analysis",
+      "items": ["Python", "SQL", "R", "Pandas", "NumPy"]
     },
     {
-      "category": "前端技术",
-      "category_en": "Frontend",
-      "items": ["React", "Vue 3", "Next.js", "Tailwind CSS", "Webpack", "Vite"]
+      "category": "金融工具",
+      "category_en": "Financial Tools",
+      "items": ["Wind", "Stata", "Eviews"]
     },
     {
-      "category": "后端与数据库",
-      "category_en": "Backend & Databases",
-      "items": ["Node.js", "Express", "PostgreSQL", "MongoDB", "Redis"]
-    },
-    {
-      "category": "工具与平台",
-      "category_en": "Tools & Platforms",
-      "items": ["Git", "Docker", "AWS", "CI/CD", "Linux"]
+      "category": "通用技能",
+      "category_en": "General Skills",
+      "items": ["Microsoft Office", "LaTeX", "Database Design"]
     },
     {
       "category": "语言能力",
       "category_en": "Languages",
-      "items": ["中文（母语）", "English (IELTS 7.0)", "日本語（日常会話）"]
+      "items": ["CET-6 (520)", "IELTS 7.5 (L7.5 R9.0 W6.5 S6.5)", "中文（母语）"]
     }
   ],
-  "publications": [
-    {
-      "id": "pub-1",
-      "title": "一种基于深度学习的代码自动补全方法",
-      "title_en": "A Deep Learning Based Approach for Code Auto-Completion",
-      "authors": "张三, 李四, 王五",
-      "authors_en": "San Zhang, Si Li, Wu Wang",
-      "venue": "IEEE Transactions on Software Engineering (TSE)",
-      "year": "2022",
-      "doi": "10.1109/example.2022.001",
-      "summary": "提出了一种基于Transformer的代码补全模型，在多个基准数据集上达到SOTA性能。",
-      "summary_en": "Proposed a Transformer-based code completion model achieving SOTA performance on multiple benchmarks."
-    },
-    {
-      "id": "pub-2",
-      "title": "微服务架构下的分布式追踪系统优化",
-      "title_en": "Optimizing Distributed Tracing in Microservice Architecture",
-      "authors": "张三, 赵六",
-      "authors_en": "San Zhang, Liu Zhao",
-      "venue": "ACM SIGSOFT FSE 2021",
-      "year": "2021",
-      "doi": "10.1145/example.2021.002",
-      "summary": "针对大规模微服务场景提出自适应采样策略，在保持追踪精度的同时减少90%的存储开销。",
-      "summary_en": "Proposed adaptive sampling strategy for large-scale microservices, reducing storage overhead by 90% while maintaining tracing accuracy."
-    }
-  ],
+  "publications": [],
   "awards": [
     {
       "id": "awd-1",
-      "title": "国家奖学金",
-      "title_en": "National Scholarship",
-      "issuer": "中华人民共和国教育部",
-      "issuer_en": "Ministry of Education of China",
-      "year": "2020",
-      "summary": "综合成绩排名前1%。",
-      "summary_en": "Ranked top 1% in comprehensive evaluation."
+      "title": "上海市大学生计算机应用能力大赛 一等奖",
+      "title_en": "Shanghai College Student Computer Application Competition — First Prize",
+      "issuer": "上海市教育委员会",
+      "issuer_en": "Shanghai Municipal Education Commission",
+      "year": "2026",
+      "summary": "作为项目负责人，带领团队开发AI驱动的研究报告自动生成系统。",
+      "summary_en": "As project lead, led the team to develop an AI-driven automatic research report generation system."
     },
     {
       "id": "awd-2",
-      "title": "ACM ICPC 亚洲区域赛 银牌",
-      "title_en": "ACM ICPC Asia Regional - Silver Medal",
-      "issuer": "ACM",
-      "issuer_en": "ACM",
-      "year": "2017",
-      "summary": "团队排名亚洲区域前10%。",
-      "summary_en": "Team ranked top 10% in Asia regionals."
+      "title": "美国大学生数学建模竞赛 M奖（一等奖）",
+      "title_en": "MCM/ICM — Meritorious Winner",
+      "issuer": "COMAP",
+      "issuer_en": "COMAP",
+      "year": "2026",
+      "summary": "全球前8%，负责模型代码编写与优化。",
+      "summary_en": "Top 8% globally. Responsible for model code development and optimization."
     }
   ]
 }
