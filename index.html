@@ -661,7 +661,7 @@ function renderAll() {
           </ul>
         </div>
       ` : ''}
-    `}
+    `)}
 
     ${renderSection('projects', '🚀', '项目作品', 'Projects', resumeData.projects, item => `
       <div class="card-header">
@@ -690,7 +690,7 @@ function renderAll() {
           </ul>
         </div>
       ` : ''}
-    `}
+    `)}
 
     ${renderSkills()}
 
@@ -716,7 +716,7 @@ function renderAll() {
           </ul>
         </div>
       ` : ''}
-    `}
+    `)}
 
     ${renderSection('publications', '📄', '论文发表', 'Publications', resumeData.publications, item => `
       <div class="card-header">
@@ -737,7 +737,7 @@ function renderAll() {
         ${item.doi ? `<span>🔗 <a href="https://doi.org/${item.doi}" target="_blank" style="color:var(--blue-600)">DOI: ${item.doi}</a></span>` : ''}
       </div>
       ${item.summary ? `<p style="font-size:14px;color:var(--gray-700);line-height:1.7">${field(item, 'summary')}</p>` : ''}
-    `}
+    `)}
 
     ${renderSection('awards', '🏆', '获奖荣誉', 'Awards', resumeData.awards, item => `
       <div class="card-header">
@@ -754,7 +754,7 @@ function renderAll() {
       <div class="modal-sub">${field(item, 'issuer')}</div>
       <div class="modal-meta"><span>📅 ${item.year}</span></div>
       ${item.summary ? `<p style="font-size:14px;color:var(--gray-700);line-height:1.7">${field(item, 'summary')}</p>` : ''}
-    `}
+    `)}
   `;
 
   // 侧边栏信息
