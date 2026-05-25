@@ -568,6 +568,7 @@ const NAV_SECTIONS = [
   { id: 'experience', icon: '💼', zh: '工作经历', en: 'Experience' },
   { id: 'projects', icon: '🚀', zh: '项目作品', en: 'Projects' },
   { id: 'skills', icon: '🛠', zh: '技能标签', en: 'Skills' },
+  { id: 'research', icon: '🔬', zh: '科研经历', en: 'Research' },
   { id: 'publications', icon: '📄', zh: '论文发表', en: 'Publications' },
   { id: 'awards', icon: '🏆', zh: '获奖荣誉', en: 'Awards' },
 ];
@@ -693,6 +694,30 @@ function renderAll() {
 
     ${renderSkills()}
 
+    ${renderSection('research', '🔬', '科研经历', 'Research', resumeData.research, item => `
+      <div class="card-header">
+        <div>
+          <div class="card-title">${field(item, 'name')}</div>
+          <div class="card-sub">${field(item, 'institution')}</div>
+        </div>
+        <div class="card-meta">${item.start} — ${field(item, 'end')}</div>
+      </div>
+      ${item.summary ? `<div class="card-summary">${field(item, 'summary')}</div>` : ''}
+      <span class="click-hint">${t('点击查看详情 →', 'Click for details →')}</span>
+    `, item => `
+      <div class="modal-title">${field(item, 'name')}</div>
+      <div class="modal-sub">${field(item, 'institution')}</div>
+      <div class="modal-meta"><span>📅 ${item.start} — ${field(item, 'end')}</span></div>
+      ${item.details && item.details.length ? `
+        <div class="modal-section">
+          <h4>${t('研究内容', 'Research Details')}</h4>
+          <ul class="modal-detail-list">
+            ${(currentLang === 'en' && item.details_en ? item.details_en : item.details).map(d => `<li>${d}</li>`).join('')}
+          </ul>
+        </div>
+      ` : ''}
+    `}
+
     ${renderSection('publications', '📄', '论文发表', 'Publications', resumeData.publications, item => `
       <div class="card-header">
         <div>
@@ -780,6 +805,7 @@ function openModal(sectionId, itemId) {
     education: resumeData.education,
     experience: resumeData.experience,
     projects: resumeData.projects,
+    research: resumeData.research,
     publications: resumeData.publications,
     awards: resumeData.awards,
   };
@@ -811,6 +837,14 @@ function openModal(sectionId, itemId) {
       ${item.link ? `<div class="modal-sub"><a href="${item.link}" target="_blank" style="color:var(--blue-600)">${item.link}</a></div>` : ''}
       ${item.tech ? `<div class="modal-section"><h4>${t('技术栈', 'Tech Stack')}</h4><div class="modal-badges">${item.tech.map(t=>`<span class="skill-tag">${t}</span>`).join('')}</div></div>` : ''}
       ${item.details ? `<div class="modal-section"><h4>${t('项目亮点', 'Highlights')}</h4><ul class="modal-detail-list">${(currentLang==='en'&&item.details_en?item.details_en:item.details).map(d=>`<li>${d}</li>`).join('')}</ul></div>` : ''}
+      ${editMode ? editButtons(sectionId, item) : ''}
+    `;
+  } else if (sectionId === 'research') {
+    bodyHTML = `
+      <div class="modal-title">${field(item, 'name')}</div>
+      <div class="modal-sub">${field(item, 'institution')}</div>
+      <div class="modal-meta"><span>📅 ${item.start} — ${field(item, 'end')}</span></div>
+      ${item.details ? `<div class="modal-section"><h4>${t('研究内容', 'Research Details')}</h4><ul class="modal-detail-list">${(currentLang==='en'&&item.details_en?item.details_en:item.details).map(d=>`<li>${d}</li>`).join('')}</ul></div>` : ''}
       ${editMode ? editButtons(sectionId, item) : ''}
     `;
   } else if (sectionId === 'publications') {
